@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-/// Yellow glass call-to-action used across the app
-/// (Get Started, Add to Cart, Proceed to Checkout).
 struct PrimaryButton: View {
     let title: LocalizedStringKey
     let systemImage: String
@@ -21,8 +19,8 @@ struct PrimaryButton: View {
         }
         .buttonStyle(.glassProminent)
         .buttonBorderShape(borderShape)
-        .tint(Color.verdaYellow)
-        .foregroundStyle(Color.verdaDarkGreen)
+        .tint((Color("verdaYellow")))
+        .foregroundStyle((Color("verdaDarkGreen")))
         .controlSize(.large)
     }
     
@@ -32,12 +30,10 @@ struct PrimaryButton: View {
                 .frame(maxWidth: .infinity)
             
             Image(systemName: systemImage)
-                .accessibilityHidden(true)
         }
         .font(.alexandriaMedium(size: 17, relativeTo: .body))
     }
     
-    /// No corner radius means a capsule.
     private var borderShape: ButtonBorderShape {
         guard let cornerRadius else { return .capsule }
         return .roundedRectangle(radius: cornerRadius)

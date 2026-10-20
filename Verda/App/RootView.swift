@@ -11,14 +11,17 @@ struct RootView: View {
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
     
     var body: some View {
-        Group {
-            if hasSeenOnboarding {
-                Text("Home")
-            } else {
-                OnboardingView {
-                    hasSeenOnboarding = true
+        ZStack {
+            Group {
+                if hasSeenOnboarding {
+                    Text("Home")
+                } else {
+                    OnboardingView {
+                        hasSeenOnboarding = true
+                    }
                 }
             }
+            .transition(.opacity)
         }
         .animation(.default, value: hasSeenOnboarding)
     }
