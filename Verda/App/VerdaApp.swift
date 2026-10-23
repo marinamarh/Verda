@@ -10,10 +10,11 @@ import SwiftData
 
 @main
 struct VerdaApp: App {
-
+    
     var body: some Scene {
         WindowGroup {
             RootView()
+                .modelContainer(for: [CartItem.self, FavoriteProduct.self])
         }
     }
 }

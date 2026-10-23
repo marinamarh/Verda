@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import SwiftData
+
+@Model
+final class FavoriteProduct {
+    @Attribute(.unique) var productID: String
+    
+    init(productID: String) {
+        self.productID = productID
+    }
+}

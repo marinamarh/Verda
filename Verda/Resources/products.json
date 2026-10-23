@@ -1,0 +1,98 @@
+[
+  {
+    "id": "calla-lily",
+    "name": "Calla Lily",
+    "price": 26.99,
+    "rating": 4.8,
+    "reviewCount": 124,
+    "category": "flowers",
+    "summary": "Perfect for birthdays, anniversaries and just because.",
+    "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery", "petFriendly"],
+    "imageName": "CallaLily",
+    "isBestSeller": false
+  },
+  {
+    "id": "orchid-bouquet",
+    "name": "Orchid Bouquet",
+    "price": 23.99,
+    "rating": 4.6,
+    "reviewCount": 89,
+    "category": "bouquets",
+    "summary": "Elegant white orchids, hand-tied and ready to gift.",
+    "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
+    "imageName": "OrchidBouquet",
+    "isBestSeller": false
+  },
+  {
+    "id": "sun-flower",
+    "name": "Sun Flower",
+    "price": 34.99,
+    "rating": 4.7,
+    "reviewCount": 203,
+    "category": "flowers",
+    "summary": "Bright sunflowers that bring warmth to any room.",
+    "features": ["freshSeasonal", "freeDelivery", "petFriendly"],
+    "imageName": "SunFlower",
+    "isBestSeller": true
+  },
+  {
+    "id": "flower-care-kit",
+    "name": "Flower Care Kit",
+    "price": 12.99,
+    "rating": 4.5,
+    "reviewCount": 57,
+    "category": "gifts",
+    "summary": "Everything you need to keep your flowers fresh for longer.",
+    "features": ["freeDelivery"],
+    "imageName": "FlowerCareKit",
+    "isBestSeller": false
+  },
+  {
+    "id": "glass-vase",
+    "name": "Glass Vase",
+    "price": 14.99,
+    "rating": 4.4,
+    "reviewCount": 41,
+    "category": "gifts",
+    "summary": "A clear glass vase that suits any bouquet.",
+    "features": ["freeDelivery"],
+    "imageName": "GlassVase",
+    "isBestSeller": false
+  },
+  {
+    "id": "tulip-flower",
+    "name": "Tulip Flower",
+    "price": 19.99,
+    "rating": 4.8,
+    "reviewCount": 312,
+    "category": "flowers",
+    "summary": "Soft peach tulips, a spring favourite all year round.",
+    "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
+    "imageName": "TulipFlower",
+    "isBestSeller": true
+  },
+  {
+    "id": "lily-flower",
+    "name": "Lily Flower",
+    "price": 29.99,
+    "rating": 4.7,
+    "reviewCount": 158,
+    "category": "flowers",
+    "summary": "Fragrant white lilies for birthdays and celebrations.",
+    "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
+    "imageName": "LilyFlower",
+    "isBestSeller": true
+  },
+  {
+    "id": "red-roses",
+    "name": "Red Roses",
+    "price": 39.99,
+    "rating": 4.9,
+    "reviewCount": 276,
+    "category": "roses",
+    "summary": "A classic dozen red roses, hand-tied.",
+    "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
+    "imageName": "RedRoses",
+    "isBestSeller": false
+  }
+]
