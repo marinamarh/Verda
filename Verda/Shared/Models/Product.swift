@@ -16,10 +16,6 @@ nonisolated struct Product: Codable, Identifiable, Hashable, Sendable {
     let category: ProductCategory
     let summary: String
     let features: [ProductFeature]
-    let imageName: String
+    let imageNames: [String]
     let isBestSeller: Bool
 }
-
-
-
-

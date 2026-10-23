@@ -8,7 +8,7 @@
     "category": "flowers",
     "summary": "Perfect for birthdays, anniversaries and just because.",
     "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery", "petFriendly"],
-    "imageName": "CallaLily",
+    "imageNames": ["CallaLily"],
     "isBestSeller": false
   },
   {
@@ -20,7 +20,7 @@
     "category": "bouquets",
     "summary": "Elegant white orchids, hand-tied and ready to gift.",
     "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
-    "imageName": "OrchidBouquet",
+    "imageNames": ["OrchidBouquet"],
     "isBestSeller": false
   },
   {
@@ -32,7 +32,7 @@
     "category": "flowers",
     "summary": "Bright sunflowers that bring warmth to any room.",
     "features": ["freshSeasonal", "freeDelivery", "petFriendly"],
-    "imageName": "SunFlower",
+    "imageNames": ["SunFlower", "SunFlowerBouquet"],
     "isBestSeller": true
   },
   {
@@ -44,7 +44,7 @@
     "category": "gifts",
     "summary": "Everything you need to keep your flowers fresh for longer.",
     "features": ["freeDelivery"],
-    "imageName": "FlowerCareKit",
+    "imageNames": ["FlowerCareKit"],
     "isBestSeller": false
   },
   {
@@ -56,31 +56,31 @@
     "category": "gifts",
     "summary": "A clear glass vase that suits any bouquet.",
     "features": ["freeDelivery"],
-    "imageName": "GlassVase",
+    "imageNames": ["GlassVase"],
     "isBestSeller": false
   },
   {
     "id": "tulip-flower",
     "name": "Tulip Flower",
-    "price": 19.99,
+    "price": 23.99,
     "rating": 4.8,
     "reviewCount": 312,
     "category": "flowers",
     "summary": "Soft peach tulips, a spring favourite all year round.",
     "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
-    "imageName": "TulipFlower",
+    "imageNames": ["TulipFlower"],
     "isBestSeller": true
   },
   {
     "id": "lily-flower",
     "name": "Lily Flower",
-    "price": 29.99,
+    "price": 17.99,
     "rating": 4.7,
     "reviewCount": 158,
     "category": "flowers",
     "summary": "Fragrant white lilies for birthdays and celebrations.",
     "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
-    "imageName": "LilyFlower",
+    "imageNames": ["LilyFlower"],
     "isBestSeller": true
   },
   {
@@ -92,7 +92,7 @@
     "category": "roses",
     "summary": "A classic dozen red roses, hand-tied.",
     "features": ["freshSeasonal", "handTiedBouquet", "freeDelivery"],
-    "imageName": "RedRoses",
+    "imageNames": ["RedRoses"],
     "isBestSeller": false
   }
 ]

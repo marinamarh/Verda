@@ -12,7 +12,7 @@ nonisolated enum ProductCategory: String, Codable, CaseIterable, Sendable {
     case roses
     case bouquets
     case gifts
-    
+ 
     var title: String {
         switch self {
         case .flowers: "Flowers"
